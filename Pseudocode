@@ -1,0 +1,24 @@
+def Area_calculator
+  ask for input(shape?)
+
+input = square
+  ask for length
+  cal length * length
+  give value
+  
+input = rectangle 
+  ask for length
+  ask for width
+  calc length * width
+  give value
+  
+input = triangle 
+  ask for base
+  ask for height
+  calc base * height / 2
+  give value
+
+input = circle 
+  ask for radius
+  calc pi * radius ^2
+  give value
