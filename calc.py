@@ -46,6 +46,11 @@ def area_calculator():
         print ('The area of the ' + input_ + ' is ' + str(area))
 
         invalid_inputinput = False
+        
+    else:
+        print ('Invalid')
+
+        invalid_inputinput = False
 
 while invalid_input:
         
